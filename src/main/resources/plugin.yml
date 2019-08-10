@@ -1,0 +1,14 @@
+name: Ignis
+main: com.xuxe.ignis.Ignis
+version: 1.0-SNAPSHOT
+author: ThatXuxe
+commands:
+  fw:
+    permission: ignis.firework
+    permission-message: You do not have have permission to use this command.
+    aliases: firework
+    usage: "Usage: /fw <amount> <Color(s)>"
+permissions:
+  ignis.firework:
+    description: Allows firework(fw) command
+    default: true
